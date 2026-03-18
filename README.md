@@ -1,16 +1,19 @@
-# React + Vite
+# 🍎 Personal Productivity Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Эстетичный дашборд для продуктивности, созданный за 7 дней с использованием **Vibe Coding**. Проект выполнен полностью без ручного написания кода — только через управление ИИ (Roo Code).
 
-Currently, two official plugins are available:
+## ✨ Фичи
+- **✅ Список задач:** С сохранением в LocalStorage (никуда не пропадают).
+- **⏱ Помодоро Таймер:** Настраиваемый (1-120 мин) с плавной анимацией.
+- **💭 Цитата дня:** Случайные вдохновляющие фразы на русском языке.
+- **🎭 Apple Style UI:** Темная тема, эффект стекла (blur), мягкие тени и анимации.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Стек
+- **React + Vite**
+- **Tailwind CSS** (стилизация)
+- **Framer Motion** (анимации)
+- **Lucide React** (иконки)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Как запустить
+1. `npm install`
+2. `npm run dev`
